@@ -6,7 +6,7 @@ public class Numbers {
             System.out.print("Enter 2 | ");
                int num1 = keyboard.nextInt();
                System.out.print("Enter 3 | ");
-               int num2 = .nextInt();
+               int num2 = keyboard.nextInt();
                System.out.print("Enter 4 | ");
                int num3 = keyboard.nextInt();
 
