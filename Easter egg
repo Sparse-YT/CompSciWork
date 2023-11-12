@@ -1,0 +1,4 @@
+             int sn = (int)(Math.random() * 43) ;
+            if (sn == 42 || lotto >= 100){
+                System.out.println("You have unlocked the secrets of the universe and the meaning of life. ");
+            }else{
