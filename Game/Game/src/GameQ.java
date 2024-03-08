@@ -72,9 +72,9 @@ public class GameQ {
 
             String q1 = "Which state has the highest rank?";
             String q2 = ("What state is " + state.getAbiv()+ " ?");
-            String q3 = ("Population of " + state.getName() + " is?");
+            String q3 = ("Population of " + state.getName() + " is ?");
             String q4 = ("" + states.get(rngS).getRank() + " is which state?");
-            String q5 = ("" + states.get(rngS) + "");
+            String q5 = ("" + states.get(rngS).getPop() + " is the population that belongs to which state ? ");
 
             int rng = (int) ((Math.random() * 5 ) + 1);
             int rngQ1 = (int) ((Math.random() * 5 ) + 1);
@@ -105,6 +105,8 @@ public class GameQ {
 
             
 
+            
+
 
 
 
@@ -119,27 +121,20 @@ public class GameQ {
                 str = true;
             }
             while(str == true){
-                
+                System.out.println(q2);
+                start = keyboard.nextLine();
             }
             System.out.println("Ok, ending simulation");
 
             
-
-
-
-
-
-                
+  
 
         } 
 
 
     }
 
-    private static int Quest() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'Quest'");
-    }
 }
+
 
 
